@@ -15,7 +15,7 @@ body {
   padding-right: 50px;
   padding-top: 20px;
   padding-bottom: 0;
-  padding: 0;
+
   margin: 0;
 }
 .header {
@@ -25,7 +25,7 @@ body {
 }
 .nav-links {
   display: grid;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   grid-template-columns: repeat(3, 50px);
   grid-column-gap: 50px;
@@ -139,6 +139,10 @@ body {
   color: white;
   position: absolute;
   margin-top: 50px;
+  padding: 10px;
+}
+.p-n-2 {
+  width: 80px;
 }
 .project-img {
   grid-area: p-pic;
@@ -156,7 +160,7 @@ body {
   position: relative;
   margin-top: 100px;
 }
-.g-l {
+.e-l {
   margin-left: 15px;
 }
 .contact {
@@ -247,6 +251,7 @@ body {
     text-align: center;
     justify-content: center;
   }
+
   .project-desc {
     position: static;
     width: 50vw;
@@ -280,5 +285,12 @@ body {
   }
   .project-tech > div {
     width: fit-content;
+  }
+  .p-l {
+    width: fit-content;
+  }
+  .g-l {
+    display: grid;
+    align-self: flex-start;
   }
 }
