@@ -189,6 +189,13 @@ body {
   margin-top: 100px;
   text-align: center;
 }
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+.fade-in.appear {
+  opacity: 1;
+}
 @media screen and (max-width: 500px) {
   body {
     padding: 0;
