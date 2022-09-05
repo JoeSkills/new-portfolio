@@ -10,6 +10,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+a {
+  -webkit-tap-highlight-color: transparent;
+}
 body {
   padding-left: 50px;
   padding-right: 50px;
@@ -260,7 +263,9 @@ body {
     position: static;
     width: 50vw;
   }
-
+  .p-n-2 {
+    width: fit-content;
+  }
   .project-img {
     width: 200px;
   }
